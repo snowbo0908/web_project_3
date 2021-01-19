@@ -1,0 +1,23 @@
+.places__place{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 984px;
+    width: 100%;
+    justify-content: flex-start;
+    list-style-type: none;
+    /* overflow: hidden; */
+    /* grid-template-columns: 460px 484px;
+    grid-template-rows: 76px 174px 104px 104px;
+    grid-column-gap: 40px;
+    grid-row-gap: 48px 27px 25px;
+    grid-template-areas:
+        "title website"
+        "image paragraph_one"
+        "image paragraph_two"
+        "image paragraph_three"; */
+}
+
+.places__place + .places__place{
+    margin-top: 80px;
+}

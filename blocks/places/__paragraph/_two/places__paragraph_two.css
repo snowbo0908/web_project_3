@@ -1,0 +1,8 @@
+.places__paragraph_two{
+    grid-area: paragraph_two;
+    font-family: 'Inter';
+    color: white;
+    font-size: 16px;
+    line-height: 1.63;
+    font-weight: 400;
+}

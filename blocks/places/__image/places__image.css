@@ -1,0 +1,36 @@
+.places__image{
+    max-width: 460px;
+    max-height: 460px;
+    margin-top: 48px;
+    margin-right: 40px;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    /* border: 1px solid red; */
+    object-fit: contain;
+
+}
+
+@media screen and (max-width: 1279px){
+    .places__image{
+        margin-right: 32px;
+        max-width: 440px;
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 1027px){
+    .places__image{
+        margin-right: 28px;
+        max-width: 340px;
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .places__image{
+
+    }
+}

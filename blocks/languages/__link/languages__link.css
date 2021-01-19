@@ -1,0 +1,17 @@
+.languages__link{
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration: none;
+}
+
+.languages__link + .languages__link{
+    margin-left: 18px;
+}
+
+@media screen and (max-width: 320px){
+    .languages__link{
+        font-size: 18px;
+        line-height: 20px;
+    }
+    
+}

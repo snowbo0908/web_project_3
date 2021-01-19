@@ -1,0 +1,8 @@
+.places__paragraph_three{
+    grid-area: paragraph_three;
+    font-family: 'Inter';
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+}
