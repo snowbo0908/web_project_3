@@ -1,5 +1,5 @@
 .page__wrapper{
-    /* border: 1px solid red; */
+    border: 1px solid red;
     max-width: 1184px;
     margin: auto;
     width: calc(100% - 96px);

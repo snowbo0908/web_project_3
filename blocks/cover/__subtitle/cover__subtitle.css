@@ -10,5 +10,13 @@
     text-align: center;
     margin: auto;
     margin-top: 32px;
-    border: 1px solid white;
+}
+
+@media screen and (max-width: 320px){
+    .cover__subtitle{
+        width: calc (100% - 32px);
+        font-size: 14px;
+        line-height: 16px;
+        margin-top: 16px;
+    }
 }

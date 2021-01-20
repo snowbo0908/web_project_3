@@ -27,8 +27,6 @@
     .header{
         /* margin: 24px 0px 50px; */
         margin-top: 24px;
-        margin-bottom: 50px;
-        width: 100%;
     }
 }
 
@@ -36,7 +34,5 @@
     .header{
         /* margin: 20px 0px 50px; */
         margin-top: 20px;
-        margin-bottom: 50px;
-        width: 100%;
     }
 }
