@@ -3,35 +3,72 @@
     font-size: 72px;
     line-height: 76px;
     font-style: normal;
-    /* width: 100%; */
     max-width: 460px;
-    /* height: auto; */
-    min-height: 76px; 
     margin: 0;
-    border: 1px solid red;
+    padding: 0;
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (max-width: 1024px){
     .places__title{
         max-width: 440px;
     }
 }
 
-@media screen and (min-width: 768px){
+@media screen and (max-width: 768px){
     .places__title{
         max-width: 340px;
-        min-height: 46px;
+
         font-size: 42px;
         line-height: 46px;
     }
 }
 
-@media screen and (min-width: 320px){
+@media screen and (max-width: 320px){
     .places__title{
         max-width: 100%;
-        min-height: 35px;
+
         font-size: 32px;
         line-height: 35px;
         margin-bottom: 32px;
     }
 }
+
+/* .places__title{
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    max-width: 460px;
+    width: 100%;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 40px;
+    border: 1px solid white;
+}
+
+@media screen and (max-width: 1024px){
+    .places__title{
+        margin-right: 32px;
+        max-width: 440px;
+
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .places__title{
+        margin-right: 28px;
+        max-width: 340px;
+
+        font-size: 42px;
+        line-height: 46px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .places__title{
+        font-size: 32px;
+        line-height: 35px;
+    }
+} */
