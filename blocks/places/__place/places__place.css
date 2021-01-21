@@ -1,23 +1,48 @@
 .places__place{
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    box-sizing: border-box;
     margin: 0 auto;
-    max-width: 984px;
+    padding: 0;
     width: 100%;
-    justify-content: flex-start;
+    height: auto;
+    /* justify-content: flex-start; */
     list-style-type: none;
+    border: 1px solid #ffffff;
     /* overflow: hidden; */
-    /* grid-template-columns: 460px 484px;
-    grid-template-rows: 76px 174px 104px 104px;
-    grid-column-gap: 40px;
-    grid-row-gap: 48px 27px 25px;
-    grid-template-areas:
-        "title website"
-        "image paragraph_one"
-        "image paragraph_two"
-        "image paragraph_three"; */
+    grid-template-columns: 460px 484px;
+    grid-template-rows: 76px 460px;
+    column-gap: 40px;
+    row-gap: 48px;
+    
 }
 
 .places__place + .places__place{
     margin-top: 80px;
+}
+
+@media screen and (max-width: 1024px){
+    .places__place{
+        max-width: 928px;
+        grid-template-columns: 440 456px;
+        grid-template-rows: auto auto;
+        column-gap: 32px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .places__place{
+        max-width: 720px;
+        grid-template-columns: 340px 352px;
+        grid-template-rows: auto auto;
+        column-gap: 28px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .places__place{
+        display: block;
+        /* flex-direction: column; */
+        margin-bottom: 49px; 
+    }
+    
 }

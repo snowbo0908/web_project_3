@@ -3,6 +3,7 @@
     margin: auto;
     width: calc(100% - 96px);
     overflow: visible;
+    border: 1px solid red;
     /* min-width: calc(100% - 32px); */
 } 
 

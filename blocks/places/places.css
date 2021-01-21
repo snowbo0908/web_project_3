@@ -3,24 +3,32 @@
 @import url(./__place/places__place.css);
 @import url(./__title/places__title.css);
 @import url(./__website/places__website.css);
-@import url(./__figure/places__figure.css);
 @import url(./__main-text/places__main-text.css);
 @import url(./__link/places__link.css);
 @import url(./__url-heading/places__url-heading.css);
+
 .places{
-    /* border: 1px solid blue; */
-    width: calc(100%-200px);
+    max-width: 984px;
+    width: calc(100% - 200px);
     margin: auto;
+    margin-bottom: 92px;
+    /* border: 1px solid green; */
 }
 
-/* @media screen and (min-width: 1279px){
+@media screen and (max-width: 1024px){
     .places{
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .places{
+        margin-bottom: 65px;
+    }
+}
+
+/* @media screen and (min-width: 320px){
+    .places__left, .places__right{
+        flex: 95%;
     }
 } */
-
-@media screen and (min-width: 767px){
-    .places{
-        width: 100%;
-    }
-}
