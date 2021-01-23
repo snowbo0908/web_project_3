@@ -1,7 +1,7 @@
 .places__link{
-    font-family: 'Inter-Regular';
     font-size: 18px;
     line-height: 22px;
+    font-weight: 400;
     margin-top: 12px;
     margin-bottom: 0px;
     opacity: 1;

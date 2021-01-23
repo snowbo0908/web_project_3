@@ -25,6 +25,9 @@
 
 @media screen and (max-width: 320px){
     .places__website{
-        display: none; 
+        width: calc(100% - 16px);
+        margin: auto;
+        margin-bottom: 30px;
+        
     }
 }

@@ -3,41 +3,54 @@
 @import url(./__text/intro__text.css);
 @import url(./__title/intro__title.css);
 @import url(./__list-accent/intro__list-accent.css);
-
+@import url(./__container/intro__container.css);
 .intro{
     margin: 0;
     padding: 0;
-    margin-top: 92px;
-    margin-left: 100px;
-    max-width: 690px;
-    width: 100%;
-    /* width: calc(100% - 394px); */
+    margin: 92px auto;
+    max-width: 984px;
 }
+
 
 @media screen and (max-width: 1024px){
     .intro{
+        width: calc(100% - 94px);
+    }
+}
+
+@media screen and (max-width: 768px){
+    .intro{
+        width: calc(100% - 48px);
+        margin-top: 88px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .intro{
+        margin-top: 64px;
+        margin-bottom: 64px;
+    }
+}
+/* 
+@media screen and (max-width: 1024px){
+    .intro{
         margin-left: 0px;
-        width: 100%;
         
     }
 }
 
 @media screen and (max-width: 768px){
     .intro{
-        margin-left: 0px;
         margin-right: 0px;
         margin-top: 88px;
-        width: 100%;
-        /* height: 543px; */
+
     }
 }
 
 @media screen and (max-width: 320px){
     .intro{
-        margin-left: 0px;
-        margin-right: 0px;
         margin-top: 64px;
         margin-bottom: 64px;
         max-width: 720px;
     }
-}
+} */

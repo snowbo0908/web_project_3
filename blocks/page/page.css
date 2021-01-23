@@ -2,7 +2,6 @@
 
 .page{
     background-color: #2a2c2f;
-    /* font-family: 'Inter', sans-serif; */
     color: #ffffff;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
@@ -10,4 +9,8 @@
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
+    font-family: 'Inter', sans-serif;
+    max-width: 1184px;
+    margin: auto;
+    border: 1px solid white;
 }

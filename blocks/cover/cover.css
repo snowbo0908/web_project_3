@@ -5,9 +5,11 @@
 .cover{
     /* margin-top: 92px; */
     width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
-@media screen and (max-width: 1027px){
+/* @media screen and (max-width: 1027px){
     .cover{
         width: calc(100% + 96px);
         margin: auto;
@@ -28,4 +30,4 @@
         margin: auto;
         margin-left: -16px;
     }
-}
+} */

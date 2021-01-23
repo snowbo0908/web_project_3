@@ -1,6 +1,6 @@
 .header{
     max-width: 984px;
-    width: calc(100% - 200px);
+    /* width: calc(100% - 296px); */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -15,7 +15,7 @@
         /* margin: 34px 0px 50px; */
         margin-top: 34px;
         margin-bottom: 50px;
-        width: 100%;
+        width: calc(100% - 96px);
     }
 }
 
@@ -23,6 +23,7 @@
     .header{
         /* margin: 24px 0px 50px; */
         margin-top: 24px;
+        width: calc(100% - 48px);
     }
 }
 
@@ -30,5 +31,6 @@
     .header{
         /* margin: 20px 0px 50px; */
         margin-top: 20px;
+        width: calc(100% - 32px);
     }
 }

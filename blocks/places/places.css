@@ -8,22 +8,20 @@
 @import url(./__url-heading/places__url-heading.css);
 
 .places{
-    /* max-width: 984px; */
-    width: calc(100% - 200px);
+    width: calc(100% - 296px);
     margin: auto;
     margin-bottom: 92px;
 }
 
 @media screen and (max-width: 1024px){
     .places{
-        width: 100%;
+        width: calc(100% - 96px);
     }
 }
 
 @media screen and (max-width: 768px){
     .places{
-        width: 100%;
-        
+        width: calc(100% - 48px);
     }
 }
 

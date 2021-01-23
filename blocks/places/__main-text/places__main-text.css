@@ -3,22 +3,25 @@
     padding: 0;
     max-width: 484px;
     width: 100%;
+    border: 1px solid white;
 }
 
 @media screen and (max-width: 1024px){
     .places__main-text{
-        max-width: 456px;
+        /* max-width: 456px; */
     }
 }
 
 @media screen and (max-width: 768px){
     .places__main-text{
-        max-width: 352px;
+        /* max-width: 352px; */
     }
 }
 
 @media screen and (max-width: 320px){
     .places__main-text{
-        max-width: 288px;
+        /* max-width: 288px; */
+        width: calc(100% - 32px);
+        margin: auto;
     }
 }
