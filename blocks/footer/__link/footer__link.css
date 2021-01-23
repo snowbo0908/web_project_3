@@ -1,6 +1,7 @@
 .footer__link{
     margin-right: 18px;
     text-decoration: none;
+    font-family: 'Inter-Regular';
 }
 
 @media screen and (max-width: 320px){
