@@ -4,7 +4,6 @@
     margin: 0 auto;
     padding: 0;
     max-width: 984px;
-    height: auto;
     list-style-type: none;
     grid-template-columns: 49% 51%;
     /* grid-template-rows: 76px 460px; */

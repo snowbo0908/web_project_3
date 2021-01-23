@@ -5,7 +5,6 @@
 .footer{
     max-width: 1184px;
     width: 100%;
-    height: auto;
     margin-top: 92px;
     margin-bottom: 24px;
     display: flex;
@@ -17,6 +16,5 @@
         flex-direction: column;
         min-width: 168px;
         min-height: 198px;
-        height: auto;
     }
 }

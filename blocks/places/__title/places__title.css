@@ -1,8 +1,7 @@
 .places__title{
-    font-weight: 900;
+    font-family: 'Inter-Black';
     font-size: 72px;
     line-height: 76px;
-    font-style: normal;
     max-width: 460px;
     margin: 0;
     padding: 0;

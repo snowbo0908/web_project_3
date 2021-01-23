@@ -3,6 +3,7 @@
     line-height: 1.63;
     max-width: 690px;
     margin-bottom: 33px;
+    font-family: 'Inter-Regular';
 }
 
 @media screen and (max-width: 768px){

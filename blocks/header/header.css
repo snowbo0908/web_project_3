@@ -1,10 +1,6 @@
 .header{
-    /* margin: auto; */
-    /* margin-top: 34px; */
     max-width: 984px;
     width: calc(100% - 200px);
-    height: 44px;
-    min-height: 36px;
     display: flex;
     justify-content: space-between;
     align-items: center;
