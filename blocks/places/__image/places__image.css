@@ -18,9 +18,15 @@
     }
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 630px){
     .places__image{
         max-width: 100%;
+        margin-bottom: 36px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .places__image{
         margin-bottom: 32px;
     }
 }

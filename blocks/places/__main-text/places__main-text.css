@@ -8,13 +8,20 @@
 
 @media screen and (max-width: 1024px){
     .places__main-text{
-        max-width: 456px;
+        /* max-width: 456px; */
     }
 }
 
 @media screen and (max-width: 768px){
     .places__main-text{
-        max-width: 352px;
+        /* max-width: 352px; */
+    }
+}
+
+@media screen and (max-width: 630px){
+    .places__main-text{
+        width: calc(100% - 36px);
+        margin: auto;
     }
 }
 
@@ -22,6 +29,6 @@
     .places__main-text{
         /* max-width: 288px; */
         width: calc(100% - 32px);
-        margin: auto;
+        /* margin: auto; */
     }
 }

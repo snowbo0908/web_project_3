@@ -23,6 +23,12 @@
     }
 } */
 
+@media screen and (max-width: 630px){
+    .places__website{
+        margin-bottom: 33px;
+    }
+}
+
 @media screen and (max-width: 320px){
     .places__website{
         width: calc(100% - 16px);

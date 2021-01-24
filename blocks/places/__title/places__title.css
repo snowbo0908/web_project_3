@@ -9,30 +9,33 @@
     vertical-align: bottom;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1250px){
     .places__title{
-        font-size: 55px;
+        font-size: 60px;
+        line-height: 64px;
     }
 }
 
-@media screen and (max-width: 880px){
+@media screen and (max-width: 1024px){
     .places__title{
-        font-size: 48px;
+        font-size: 55px;
+        line-height: 59px;
     }
 }
 
 @media screen and (max-width: 768px){
     .places__title{
         /* width */
-        font-size: 42px;
-        line-height: 46px;
+        font-size: 48px;
+        line-height: 52px;
     }
 }
 
-@media screen and (max-width: 544px){
+@media screen and (max-width: 630px){
     .places__title{
-        font-size: 32px;
-        line-height: 40px;
+        font-size: 40px;
+        line-height: 44px;
+        margin-bottom: 34px;
     }
 }
 
