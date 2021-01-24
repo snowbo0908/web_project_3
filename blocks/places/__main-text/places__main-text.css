@@ -8,13 +8,13 @@
 
 @media screen and (max-width: 1024px){
     .places__main-text{
-        /* max-width: 456px; */
+        max-width: 456px;
     }
 }
 
 @media screen and (max-width: 768px){
     .places__main-text{
-        /* max-width: 352px; */
+        max-width: 352px;
     }
 }
 
