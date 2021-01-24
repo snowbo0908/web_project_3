@@ -2,11 +2,14 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
-}
-
-.languages__link:nth-of-type(2){
     text-decoration: none;
 }
+
+
+
+/* .languages__link:nth-of-type(2){
+    text-decoration: none;
+} */
 
 .languages__link + .languages__link{
     margin-left: 18px;
@@ -19,3 +22,4 @@
     }
     
 }
+

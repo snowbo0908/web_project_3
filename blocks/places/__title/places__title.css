@@ -5,7 +5,6 @@
     width: 100%;
     margin: 0;
     padding: 0;
-    border: 1px solid green;
     vertical-align: bottom;
 }
 
@@ -25,7 +24,6 @@
 
 @media screen and (max-width: 768px){
     .places__title{
-        /* width */
         font-size: 48px;
         line-height: 52px;
     }
