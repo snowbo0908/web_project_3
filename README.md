@@ -4,3 +4,4 @@
 
 # Techniques used for this project: Grid layout, Flex-box, Pseudo class::after to insert an image and overlay text. 
 
+# Link to the project: https://github.com/snowbo0908/web_project_3
