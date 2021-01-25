@@ -5,7 +5,6 @@
 @import url(./__list-accent/intro__list-accent.css);
 @import url(./__container/intro__container.css);
 .intro{
-
     padding: 0;
     margin: 92px auto;
     max-width: 984px;
@@ -27,6 +26,7 @@
 
 @media screen and (max-width: 320px){
     .intro{
+        width: calc(100% - 32px);
         margin-top: 64px;
         margin-bottom: 64px;
     }

@@ -10,6 +10,7 @@
     -moz-text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
     font-family: 'Inter', sans-serif;
-    max-width: 1184px;
+    max-width: 1280px;
     margin: auto;
+    /* border: 1px solid white; */
 }

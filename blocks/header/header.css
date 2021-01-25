@@ -1,3 +1,5 @@
+@import url(./__logo/header__logo.css);
+
 .header{
     max-width: 984px;
     /* width: calc(100% - 296px); */
@@ -7,12 +9,10 @@
     margin: auto;
     margin-top: 34px;
     margin-bottom: 58px;
-    /* margin: 34px 100px 58px 100px; */
 }
 
 @media screen and (max-width:1024px){
     .header{
-        /* margin: 34px 0px 50px; */
         margin-top: 34px;
         margin-bottom: 50px;
         width: calc(100% - 96px);
@@ -21,7 +21,6 @@
 
 @media screen and (max-width: 768px){
     .header{
-        /* margin: 24px 0px 50px; */
         margin-top: 24px;
         width: calc(100% - 48px);
     }
@@ -29,7 +28,6 @@
 
 @media screen and (max-width: 320px){
     .header{
-        /* margin: 20px 0px 50px; */
         margin-top: 20px;
         width: calc(100% - 32px);
     }
