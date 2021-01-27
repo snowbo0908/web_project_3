@@ -23,6 +23,5 @@
         flex-direction: column;
         width: calc(100% - 32px);
         margin-top: 64px;
-        /* min-height: 198px; */
     }
 }

@@ -3,31 +3,11 @@
 @import url(./__link/cover__link.css);
 
 .cover{
-    /* margin-top: 92px; */
+    max-width: 1184px;
     width: 100%;
+    margin: auto;
     display: flex;
     flex-direction: column;
 }
 
-/* @media screen and (max-width: 1027px){
-    .cover{
-        width: calc(100% + 96px);
-        margin: auto;
-        margin-left: -48px;
-    }
-}
 
-@media screen and (max-width: 767px){
-    .cover{
-        width: calc(100% + 48px);
-        margin: auto;
-        margin-left: -24px;
-    }
-}
-@media screen and (max-width: 319px){
-    .cover{
-        width: calc(100% + 32px);
-        margin: auto;
-        margin-left: -16px;
-    }
-} */
